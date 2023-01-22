@@ -1,0 +1,54 @@
+.grid{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -375px;
+}
+
+.grid h1{
+    color: #424242;
+}
+
+.grid .imgcontainer{
+    height: 227px;
+    width: 750px;
+    margin-bottom: 28px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.grid img{
+    width: 750px;
+    margin-top: -260px;
+}
+
+.grid .infoblock{
+    justify-content: center;
+    display: flex;
+}
+
+.grid .infoblock .history{
+    padding: 10px 20px 10px 20px;
+    width: 347px;
+    background-color: #E9EAEC;
+    border-radius: 15px;
+    margin-right: 28px;
+}
+
+.grid .infoblock .example{
+    padding: 10px 20px 10px 20px;
+    width: 347px;
+    background: linear-gradient(#E9EAEC 40%, #424242 40%);
+    border-radius: 15px;
+    margin-left: 28px;
+}
+
+pre{
+    color: white;
+    padding-top: 10px;
+}
